@@ -1,3 +1,4 @@
+# Project Structure
 
 ```console
 bessel_project/
@@ -18,3 +19,5 @@ bessel_project/
     ├── main.py
 
 ```
+
+# Dependency Graph
