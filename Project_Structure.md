@@ -42,9 +42,9 @@ task_manager/
 
  User           App              Task                  Notification
   |              |                |                        |
-  | Login       ->                |                        | 
+  | Login  ->    |                |                        | 
   |              |                |                        |
-  |            Call Task         ->                        |
+  |            Call Task    ->    |                        |
   |            Create Task        |                        |
   |              |                |                        |
   |              |       Send Notification ->              |
