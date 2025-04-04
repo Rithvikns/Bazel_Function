@@ -40,14 +40,14 @@ task_manager/
 
 ```console
 
- User           App         Task        Notification
-  |              |            |             |
-  | Login       ->           |             |
-  |              |            |             |
-  |            Call Task      ->            |
-  |            Create Task    |             |
-  |              |            |             |
-  |              |       Send Notification -> |
-  |              |            |        Email Sent
+ User           App              Task                  Notification
+  |              |                |                        |
+  | Login       ->                |                        | 
+  |              |                |                        |
+  |            Call Task         ->                        |
+  |            Create Task        |                        |
+  |              |                |                        |
+  |              |       Send Notification ->              |
+  |              |                |                  Email Sent
 
 ```
