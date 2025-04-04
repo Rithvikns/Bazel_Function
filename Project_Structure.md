@@ -1,22 +1,33 @@
 # Project Structure
 
 ```console
-bessel_project/
-│── WORKSPACE
+task_manager/
+│── user/
+│   ├── __init__.py
+│   ├── user.py
+│   ├── auth.py
+│   └── BUILD
+│
+│── task/
+│   ├── __init__.py
+│   ├── task.py
+│   └── BUILD
+│
+│── notification/
+│   ├── __init__.py
+│   ├── email.py
+│   └── BUILD
+│
+│── app.py
 │── BUILD
-│── requirements.txt
+│── WORKSPACE
 │
-├── bessel_module/
-│   ├── BUILD
-│   ├── bessel.py
-│
-├── math_operations/
-│   ├── BUILD
-│   ├── math_ops.py
-│
-└── main/
-    ├── BUILD
-    ├── main.py
+└── tests/
+    ├── test_user.py
+    ├── test_task.py
+    ├── test_notification.py
+    └── BUILD
+
 
 ```
 
