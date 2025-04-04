@@ -36,3 +36,18 @@ task_manager/
 ![image](https://github.com/user-attachments/assets/7196a9df-8163-4b8d-8549-910679ae7f62)
 
 
+# Sequence Diagram
+
+```console
+
+ User           App         Task        Notification
+  |              |            |             |
+  | Login       ->           |             |
+  |              |            |             |
+  |            Call Task      ->            |
+  |            Create Task    |             |
+  |              |            |             |
+  |              |       Send Notification -> |
+  |              |            |        Email Sent
+
+```
